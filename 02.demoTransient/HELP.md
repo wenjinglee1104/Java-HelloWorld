@@ -53,6 +53,7 @@ ShoppingCart定义了三个方法，paymentInfo属于支付手段等敏感信息
 paymentInfo的值为null，因被transient修饰所以不参与序列化。而Mall Name被static修饰，属于系统静态变量，所以值被修改。因为Total Spent同属于
 系统静态变量，所以可以直接读取，不借助类，得到结果。
 
-![李志铅笔](https://raw.githubusercontent.com/wenjinglee1104/blog_file/master/20240525195609.png
+![李志铅笔](https://raw.githubusercontent.com/wenjinglee1104/blog_file/master/20240525195609.png)
+
 
 
